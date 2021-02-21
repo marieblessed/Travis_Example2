@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - 'stable'
+script:
+  - echo '******Build starts******'
+  - echo 'Installing Dependencies'
+  - npm install
+  - echo 'Running tests'
+  - mocha
