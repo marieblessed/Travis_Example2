@@ -7,3 +7,4 @@ script:
   - npm install
   - echo 'Running tests'
   - mocha
+  - supertest

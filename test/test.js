@@ -1,6 +1,6 @@
 const supertest = require('supertest');
 
-var server = supetest.agent('http://localhos:3000');
+var server = supetest.agent('http://localhost:3000');
 
 describe('Sampleunit test', () => {
   it('should return home page', (done) => {
